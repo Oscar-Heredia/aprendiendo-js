@@ -62,5 +62,14 @@ console.log(autos);
 var Nombre = "Juan";
 var Apellidos = "Perez";
 
+var NombreCompleto = Nombre+" "+Apellidos;
+var NombreCompleto2 = "Carlos"+" "+"Lara"+(2+4);
+//Las expresiones se evaluan de izquierda a derecha
+
+//Sintaxis básica para la declaración de variables 
+let nombreCompleto = "Juan Perez";
+
+
+
 
 
