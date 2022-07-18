@@ -35,4 +35,33 @@ const SumarFuncionesTipoFlechas = (a,b) => a+b;
 resultado = SumarFuncionesTipoFlechas(1,2);
 console.log(resultado);
 
+//Ejemplo de comer se suman los arguementos
+
+let resultado2 = sumarTodo(1,2,3,3,4);
+
+function sumarTodo()
+{
+    let suma = 0;
+    for(let i=0; i<arguments.length; i++)
+    {
+        suma += arguments[i];
+    }
+    return suma;
+}
+
+console.log(resultado2);
+
+//Paso por referencia en funciones
+const persona = {
+    nombre : "",
+    apellidos : ""
+}
+
+function ponerNombres (p1){
+    p1.nombre = "Carlos";
+    p1.apellidos = "KK";
+}
+
+ponerNombres(persona);
+console.log(persona);
 
