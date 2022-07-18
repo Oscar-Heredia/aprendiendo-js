@@ -27,9 +27,12 @@ resultado = x(1,2);
 (function(a,b){
     console.log(a+b)
     console.log(arguments.length)//Nos indica los argumentos que tiene la función
+    console.log(arguments[0]);
+    console.log(arguments[1]);
 })(1,2);
 
 const SumarFuncionesTipoFlechas = (a,b) => a+b;
 resultado = SumarFuncionesTipoFlechas(1,2);
 console.log(resultado);
+
 
