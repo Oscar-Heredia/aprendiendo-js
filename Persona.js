@@ -46,7 +46,9 @@ class Persona{
 
     toString()
     {
-        return `${this._idPersoana} ${this._nombre} ${this._apellido} ${this._edad}`;
-
+        return `${this._idPersoana} 
+                ${this._nombre} 
+                ${this._apellido} 
+                ${this._edad}`;
     }
 }
