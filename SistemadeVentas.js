@@ -94,9 +94,11 @@ class Orden{
      }
 }
 
+//Agregos productos
 let producto1 = new Producto("camisa",123);
 console.log(producto1.toString());
 
+//Genero ordenes de los productos
 let orden1 = new Orden;
 orden1.agregarProducto(producto1);
 
